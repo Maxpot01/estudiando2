@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navegacion {
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+    background-color: yellow;
+}
+.sobremi {
+    margin-right: 100px;
+    text-align: center;
+}
+.sobremi h1,h2 {
+    text-align: left;
+    margin-right: -200px;
+}
