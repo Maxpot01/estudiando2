@@ -1,12 +1,33 @@
-* {
+body, div, form, input, select, p {
     margin: 0;
     padding: 0;
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    color: #eee;
+}
+body {
+    background: url(imagenes/trading.codigo.jpg) no-repeat center;
+    background-size: cover;
+}
+h1, h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+h2 {
+    margin: 0 0 0 8px;
+}
+.mainblock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 .navegacion {
     text-align: center;
     font-size: 30px;
     font-family: fantasy;
-    background-color: yellow;
+    
 }
 .sobremi {
     margin-right: 100px;
